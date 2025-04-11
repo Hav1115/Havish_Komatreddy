@@ -1,0 +1,10 @@
+// * Base styles for links */
+.hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; // Makes it visually clear that it's clickable
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.05); // Slight zoom effect
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); // Optional: adds depth
+  }
